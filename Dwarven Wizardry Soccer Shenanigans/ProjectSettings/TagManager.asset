@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wizard
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -38,6 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Floor
+    uniqueID: 2323494837
+    locked: 0
+  - name: floor_effects
+    uniqueID: 2920334799
+    locked: 0
+  - name: Unde_under_effects
+    uniqueID: 167429551
+    locked: 0
+  - name: Under_effects
+    uniqueID: 2332361123
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Over_effects
+    uniqueID: 2850727997
     locked: 0
