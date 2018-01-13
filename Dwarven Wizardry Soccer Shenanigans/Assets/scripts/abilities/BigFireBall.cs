@@ -10,6 +10,7 @@ public class BigFireBall : Ability {
 		cooldown = 4f;
 		castduration = 0.5f;
 		fireball = (GameObject)Resources.Load ("fireball_big");
+		logo = findlogo("ability_icons_1_5");
 	}
 
 	public override void magic() {

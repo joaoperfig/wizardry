@@ -16,6 +16,10 @@ public class GameController : MonoBehaviour {
 		if (controled != null) {
 			controledws = new Wizard[1];
 			controledws [0] = controled;
+
+			foreach (Wizard wiz in controledws) {
+				wiz.controller = this;
+			}
 		} 
 		
 	}

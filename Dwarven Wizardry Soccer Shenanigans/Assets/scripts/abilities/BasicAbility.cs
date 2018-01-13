@@ -14,6 +14,7 @@ public class BasicAbility : Ability {
 		cooldown = 2f;
 		castduration = 0.5f;
 		effect = (GameObject)Resources.Load ("firemancer_basic");
+		logo = findlogo("ability_icons_1_2");
 	}
 
 	public override void magic() {

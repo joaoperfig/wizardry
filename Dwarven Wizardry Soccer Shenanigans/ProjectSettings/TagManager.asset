@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wizard
   - Ball
+  - Wall
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -57,4 +59,16 @@ TagManager:
     locked: 0
   - name: Over_effects
     uniqueID: 2850727997
+    locked: 0
+  - name: Overhead
+    uniqueID: 485946541
+    locked: 0
+  - name: Walls
+    uniqueID: 9470317
+    locked: 0
+  - name: UI_bot
+    uniqueID: 152053107
+    locked: 0
+  - name: UI_top
+    uniqueID: 2873905829
     locked: 0

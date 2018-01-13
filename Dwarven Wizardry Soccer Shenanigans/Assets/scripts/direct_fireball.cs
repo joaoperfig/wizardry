@@ -36,6 +36,10 @@ public class direct_fireball : MonoBehaviour {
 			orb.velocity = diff * force;
 			Destroy (gameObject);
 		}
+		if (other.gameObject.tag == "Wall") {
+			GameObject.Instantiate (explosion, this.transform.position , Quaternion.identity);
+			Destroy (gameObject);
+		}
 
 	}
 }

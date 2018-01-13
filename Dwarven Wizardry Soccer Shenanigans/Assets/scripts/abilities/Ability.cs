@@ -43,4 +43,16 @@ public class Ability {
 
 	public virtual void magic() {
 	}
+		
+
+	public Sprite findlogo(string name){
+		Sprite[] sprites = Resources.LoadAll<Sprite>("AbilityIcons");
+		foreach (Sprite sp in sprites) {
+			if (sp.name == name) {
+				return sp;
+			}
+		}
+		return null;
+	}
+
 }

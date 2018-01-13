@@ -10,6 +10,8 @@ public class Wizard : MonoBehaviour {
 
 	public GameController controller;
 
+	public int teamtag;
+
 	public float basespeed;
 
 	public bool pressedup = false;
@@ -30,6 +32,8 @@ public class Wizard : MonoBehaviour {
 	public Ability ability_special_1;
 	public Ability ability_special_2;
 
+	public InputSpectator spectating;
+	public bool hasspectating = false;
 
  
 	// Use this for initialization
@@ -69,6 +73,10 @@ public class Wizard : MonoBehaviour {
 			if (pressed2) {	ability2();}
 			if (pressed3) {	ability3();}
 			if (pressed4) {	ability4();}
+		}
+
+		if (hasspectating) {
+			spectating.watchinput (this);
 		}
 
 		pressedup = false;

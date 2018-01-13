@@ -12,5 +12,6 @@ public class RuneBasic : BasicAbility {
 		intensity = 4;
 		amortice = 0.5f;
 		distance_modifier = 1f;
+		logo = findlogo("ability_icons_1_8");
 	}
 }

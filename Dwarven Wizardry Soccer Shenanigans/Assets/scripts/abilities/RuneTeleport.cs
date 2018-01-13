@@ -13,6 +13,7 @@ public class RuneTeleport : Ability {
 		cooldown = 2f;
 		castduration = 0.3f;
 		rune = (GameObject)Resources.Load ("teleport_rune");
+		logo = findlogo("ability_icons_1_9");
 	}
 
 	public override void magic() {
@@ -20,7 +21,7 @@ public class RuneTeleport : Ability {
 			Vector2 rot = new Vector2 (1 - Random.value * 2, 1 - Random.value * 2);
 			rot.Normalize ();
 			float rotat = Mathf.Atan2 (rot.x, rot.y) * Mathf.Rad2Deg;
-			GameObject f = GameObject.Instantiate (rune, wiz.transform.position + new Vector3 (0f, -0.15f, 0f), Quaternion.Euler (0f, 0f, -rotat));
+			GameObject f = GameObject.Instantiate (rune, wiz.transform.position + new Vector3 (0f, -0.4f, 0f), Quaternion.Euler (0f, 0f, -rotat));
 			current = f.GetComponent<teleport_rune> ();
 			created = true;
 		} else {

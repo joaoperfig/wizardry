@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class LeftKeyboardController : GameController {
 
-	
-	// Update is called once per frame
 	public override void check () {
 		if (Input.GetKey ("w")) { 
 			up (); 
@@ -19,16 +17,16 @@ public class LeftKeyboardController : GameController {
 		if (Input.GetKey ("d")) {
 			right (); 
 		}
-		if (Input.GetKey ("f")) {
+		if (Input.GetKeyDown ("f")) {
 			b1 (); 
 		}
 		if (Input.GetKeyDown ("g")) {
 			b2 (); 
 		}
-		if (Input.GetKeyDown ("v")) {
+		if (Input.GetKeyDown ("c")) {
 			b3 (); 
 		}
-		if (Input.GetKeyDown ("b")) {
+		if (Input.GetKeyDown ("v")) {
 			b4 (); 
 		}
 

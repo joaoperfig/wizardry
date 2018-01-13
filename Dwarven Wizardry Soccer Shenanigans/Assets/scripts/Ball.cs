@@ -10,7 +10,9 @@ public class Ball : MonoBehaviour {
 	private Rigidbody2D rbd;
 
 	void OnTriggerEnter2D (Collider2D other){
-
+		if (other.gameObject.tag == "Goal") {
+			Application.LoadLevel (Application.loadedLevel);
+		}
 	}
 
 	// Use this for initialization

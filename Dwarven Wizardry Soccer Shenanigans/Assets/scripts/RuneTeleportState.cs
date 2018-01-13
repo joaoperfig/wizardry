@@ -20,7 +20,7 @@ public class RuneTeleportState : WizardState {
 	}
 
 	public override void Update() {
-		wiz.gameObject.transform.position = rune.gameObject.transform.position;
+		wiz.gameObject.transform.position = rune.gameObject.transform.position + new Vector3(0f, 0.35f, 0f);
 		if (Time.time >= starttime + effectdur) {
 			wiz.state = new NormalWizardState (wiz);
 		}
