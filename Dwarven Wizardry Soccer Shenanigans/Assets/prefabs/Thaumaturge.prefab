@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1251293980433940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.38, y: -2.64, z: 0}
+  m_LocalPosition: {x: -2.69893, y: -3.0663042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4431414595459884}
@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
+  teamtag: 0
   basespeed: 3
   pressedup: 0
   presseddown: 0
@@ -202,6 +203,8 @@ MonoBehaviour:
   pressed3: 0
   pressed4: 0
   lastdir: {x: 0, y: 1}
+  spectating: {fileID: 0}
+  hasspectating: 0
 --- !u!114 &114651447183320192
 MonoBehaviour:
   m_ObjectHideFlags: 1

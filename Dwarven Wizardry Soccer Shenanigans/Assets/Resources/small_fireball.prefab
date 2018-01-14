@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114842287181213162}
   - component: {fileID: 50240495763734356}
   - component: {fileID: 58548684940719148}
+  - component: {fileID: 114463730927006876}
   m_Layer: 0
   m_Name: small_fireball
   m_TagString: Untagged
@@ -96,6 +97,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114463730927006876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392914245990884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a039e6987c065844b8eadd933852670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 6
 --- !u!114 &114842287181213162
 MonoBehaviour:
   m_ObjectHideFlags: 1

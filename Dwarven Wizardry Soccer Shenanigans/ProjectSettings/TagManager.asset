@@ -8,6 +8,8 @@ TagManager:
   - Ball
   - Wall
   - Goal
+  - Game
+  - Rune
   layers:
   - Default
   - TransparentFX

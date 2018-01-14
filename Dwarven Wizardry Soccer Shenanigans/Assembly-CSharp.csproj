@@ -73,6 +73,7 @@
      <Compile Include="Assets\scripts\Arrow.cs" />
      <Compile Include="Assets\scripts\Ball.cs" />
      <Compile Include="Assets\scripts\BallShadow.cs" />
+     <Compile Include="Assets\scripts\CameraOrder.cs" />
      <Compile Include="Assets\scripts\CastingWizardState.cs" />
      <Compile Include="Assets\scripts\CastIntoState.cs" />
      <Compile Include="Assets\scripts\CourriedWizzardState.cs" />
@@ -88,6 +89,7 @@
      <Compile Include="Assets\scripts\InputSpectator.cs" />
      <Compile Include="Assets\scripts\LeftKeyboardController.cs" />
      <Compile Include="Assets\scripts\MiddleKeyboardController.cs" />
+     <Compile Include="Assets\scripts\MVPManager.cs" />
      <Compile Include="Assets\scripts\NormalWizardState.cs" />
      <Compile Include="Assets\scripts\possession_courier.cs" />
      <Compile Include="Assets\scripts\possession_entity.cs" />
@@ -98,11 +100,19 @@
      <Compile Include="Assets\scripts\teleport_rune.cs" />
      <Compile Include="Assets\scripts\wizards\Firemancer.cs" />
      <Compile Include="Assets\scripts\wizards\Occultist.cs" />
+     <Compile Include="Assets\scripts\wizards\RandomWiz.cs" />
      <Compile Include="Assets\scripts\wizards\RuneScribe.cs" />
      <Compile Include="Assets\scripts\wizards\Thaumaturge.cs" />
      <Compile Include="Assets\scripts\wizards\Weirdo.cs" />
      <Compile Include="Assets\scripts\wizards\Wizard.cs" />
      <Compile Include="Assets\scripts\WizardState.cs" />
+     <Compile Include="Assets\temporary_ui\NumberWindow.cs" />
+     <Compile Include="Assets\temporary_ui\TempUI.cs" />
+     <Compile Include="Assets\temporary_ui\TUIGame.cs" />
+     <Compile Include="Assets\temporary_ui\TUINormalGameMan.cs" />
+     <Compile Include="Assets\temporary_ui\TUIRandAll.cs" />
+     <Compile Include="Assets\temporary_ui\TUIRandWiz.cs" />
+     <Compile Include="Assets\temporary_ui\TUISelector.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

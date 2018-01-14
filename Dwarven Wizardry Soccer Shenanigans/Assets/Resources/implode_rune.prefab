@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 58223375377615798}
   m_Layer: 0
   m_Name: implode_rune
-  m_TagString: Untagged
+  m_TagString: Rune
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 8
-  duration: 12
+  duration: 14
   destroytime: 2
 --- !u!212 &212874346643204336
 SpriteRenderer:

@@ -11,7 +11,11 @@ public class Ball : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.gameObject.tag == "Goal") {
-			Application.LoadLevel (Application.loadedLevel);
+			int winner = 1;
+			if (gameObject.transform.position.x < 0) {
+				winner = 2;
+			}
+			GameObject.FindGameObjectWithTag("Game").GetComponent<TUIGame> ().End (winner);
 		}
 	}
 

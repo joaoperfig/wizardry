@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114476396973028310}
   m_Layer: 0
   m_Name: explode_rune
-  m_TagString: Untagged
+  m_TagString: Rune
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,7 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 8
-  duration: 10
+  duration: 12
   destroytime: 2
 --- !u!212 &212636993144422538
 SpriteRenderer:

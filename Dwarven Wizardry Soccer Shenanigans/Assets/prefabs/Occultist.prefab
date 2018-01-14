@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 50797146699807266}
   - component: {fileID: 114684116037046968}
   - component: {fileID: 95347496668963382}
+  - component: {fileID: 114361441471773184}
   m_Layer: 0
   m_Name: Occultist
   m_TagString: Wizard
@@ -179,6 +180,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.71
+--- !u!114 &114361441471773184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522190315846846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dd7e876605f82c4e97ddc00aae18616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114684116037046968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,6 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
+  teamtag: 0
   basespeed: 3
   pressedup: 0
   presseddown: 0
@@ -201,6 +214,8 @@ MonoBehaviour:
   pressed3: 0
   pressed4: 0
   lastdir: {x: 0, y: 1}
+  spectating: {fileID: 0}
+  hasspectating: 0
 --- !u!212 &212285549082263840
 SpriteRenderer:
   m_ObjectHideFlags: 1

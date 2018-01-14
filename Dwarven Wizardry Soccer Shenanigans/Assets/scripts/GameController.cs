@@ -13,20 +13,18 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if (controled != null) {
-			controledws = new Wizard[1];
-			controledws [0] = controled;
-
-			foreach (Wizard wiz in controledws) {
-				wiz.controller = this;
-			}
-		} 
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (controled != null) {
+			controledws = new Wizard[1];
+			controledws [0] = controled;
+
+		}
+		foreach (Wizard wiz in controledws) {
+			wiz.controller = this;
+		}
 	}
 
 	public virtual void check ()	{}
