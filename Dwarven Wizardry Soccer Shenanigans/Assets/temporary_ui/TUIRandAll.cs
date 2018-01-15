@@ -42,8 +42,6 @@ public class TUIRandAll : MonoBehaviour {
 			GameObject og = GameObject.Instantiate (onegame);
 			ongoing = og.GetComponent<TUIGame> ();
 
-			leftw.GetComponent<SpriteRenderer> ().color = Random.ColorHSV(0, 1, 0.5f, 1);
-			rightw.GetComponent<SpriteRenderer> ().color = Random.ColorHSV(0, 1, 0.5f, 1);
 
 			ongoing.leftWiz = leftw;
 			ongoing.rightWiz = rightw;

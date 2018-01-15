@@ -17,10 +17,10 @@ public class LeftKeyboardController : GameController {
 		if (Input.GetKey ("d")) {
 			right (); 
 		}
-		if (Input.GetKeyDown ("f")) {
+		if (Input.GetKeyDown ("z")) {
 			b1 (); 
 		}
-		if (Input.GetKeyDown ("g")) {
+		if (Input.GetKeyDown ("x")) {
 			b2 (); 
 		}
 		if (Input.GetKeyDown ("c")) {

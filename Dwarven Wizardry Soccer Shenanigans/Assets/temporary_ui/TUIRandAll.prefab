@@ -57,5 +57,5 @@ MonoBehaviour:
   totalgames: 0
   leftscore: 0
   rightscore: 0
-  leftw: {fileID: 1534318255008916, guid: 907b702c458663741bb82e85a2a9d65c, type: 2}
-  rightw: {fileID: 1189090834475944, guid: b639b7b348e970d4c94dc044d00e97a5, type: 2}
+  leftw: {fileID: 1497197472631278, guid: 768746ec1ccf42a4592ca29079a0249b, type: 2}
+  rightw: {fileID: 1497197472631278, guid: 768746ec1ccf42a4592ca29079a0249b, type: 2}

@@ -17,16 +17,16 @@ public class RightKeyboardController : GameController {
 		if (Input.GetKey ("right")) {
 			right (); 
 		}
-		if (Input.GetKeyDown ("h")) {
+		if (Input.GetKeyDown ("n")) {
 			b1 (); 
 		}
-		if (Input.GetKeyDown ("j")) {
+		if (Input.GetKeyDown ("m")) {
 			b2 (); 
 		}
-		if (Input.GetKeyDown ("n")) {
+		if (Input.GetKeyDown (KeyCode.Comma)) {
 			b3 (); 
 		}
-		if (Input.GetKeyDown ("m")) {
+		if (Input.GetKeyDown (".")) {
 			b4 (); 
 		}
 

@@ -7,8 +7,8 @@ public class RuneExplode : Ability {
 	public GameObject rune;
 
 	public RuneExplode(Wizard w) : base(w){
-		cooldown = 4f;
-		castduration = 1f;
+		cooldown = 3.5f;
+		castduration = 0.8f;
 		rune = (GameObject)Resources.Load ("explode_rune");
 		logo = findlogo("ability_icons_1_10");
 	}

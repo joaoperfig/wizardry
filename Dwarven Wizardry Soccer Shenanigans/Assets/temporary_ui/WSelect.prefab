@@ -208,6 +208,8 @@ MonoBehaviour:
   totalgames: 0
   leftscore: 0
   rightscore: 0
+  leftw: {fileID: 0}
+  rightw: {fileID: 0}
 --- !u!114 &114092723502395466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -221,8 +223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: a
   right: d
-  enter1: f
-  enter2: g
+  enter1: z
+  enter2: x
   enter3: c
   enter4: v
   enter5: return
@@ -249,8 +251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: left
   right: right
-  enter1: h
-  enter2: j
+  enter1: n
+  enter2: m
   enter3: n
   enter4: m
   enter5: enter

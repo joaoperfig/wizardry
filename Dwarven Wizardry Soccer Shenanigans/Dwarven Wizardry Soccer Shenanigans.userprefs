@@ -1,8 +1,21 @@
-﻿<Properties StartupItem="Dwarven Wizardry Soccer Shenanigans.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Wizard.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\abilities\RuneExplode.cs">
     <Files>
-      <File FileName="Assets\scripts\Wizard.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\wizards\Wizard.cs" Line="53" Column="19" />
+      <File FileName="Assets\scripts\abilities\Ability.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TempUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\MVPManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TUISelector.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TUINormalGameMan.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TUIGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\AbilityWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\wizards\RandomWiz.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TUIRandAll.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\fpull_effect.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\RuneImplode.cs" Line="10" Column="17" />
+      <File FileName="Assets\scripts\abilities\RuneExplode.cs" Line="12" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

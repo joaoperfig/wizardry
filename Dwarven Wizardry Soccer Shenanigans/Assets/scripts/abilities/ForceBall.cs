@@ -7,8 +7,8 @@ public class ForceBall : Ability {
 	public GameObject forceball;
 
 	public ForceBall(Wizard w) : base(w){
-		cooldown = 8f;
-		castduration = 1f;
+		cooldown = 10f;
+		castduration = 1f; 
 		forceball = (GameObject)Resources.Load ("force_ball");
 		logo = findlogo("ability_icons_1_17");
 	}
