@@ -1,0 +1,3 @@
+occultist disappears if he swaps with shadowstepping occultist
+occultist disappears if he swaps with ball possessing occultist (make him swap with ball?)
+pyromancer big fireball instantly explodes if pyro is next to bottom wall
