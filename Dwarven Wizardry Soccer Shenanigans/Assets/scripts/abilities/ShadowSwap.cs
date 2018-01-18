@@ -16,6 +16,7 @@ public class ShadowSwap : Ability {
 	}
 
 	public override void magic() {
+		otherw = null;
 		GameObject[] wizs = GameObject.FindGameObjectsWithTag ("Wizard");
 		bool selected = false;
 		foreach (GameObject ow in wizs) {
@@ -23,15 +24,27 @@ public class ShadowSwap : Ability {
 			if (wscript.teamtag != wiz.teamtag) {
 				if (selected) {
 					if ((wiz.transform.position - ow.transform.position).sqrMagnitude <= (wiz.transform.position - otherw.transform.position).sqrMagnitude) {
-						otherw = ow;
+						if (wscript.state.allowswap) {
+							otherw = ow;
+						} else {
+							Debug.Log ("a swap was not allowed");
+						}
 					}
 				} else {
-					otherw = ow;
-					selected = true;
+					if (wscript.state.allowswap) {
+						otherw = ow;
+						selected = true;
+					} else {
+						Debug.Log ("a swap was not allowed");
+					}
 				}
 			}
 		}
 
+		if (otherw == null) {
+			GameObject.Instantiate (smoke, wiz.transform.position, Quaternion.identity);
+			return;
+		}
 
 		GameObject.Instantiate (smoke, wiz.transform.position, Quaternion.identity);
 

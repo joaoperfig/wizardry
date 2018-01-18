@@ -10,6 +10,8 @@ public class MVPManager : MonoBehaviour {
 	public GameObject randw;
 	public GameObject randa;
 
+	public bool ai = false;
+
 	GameObject camera;
 	CameraOrder co;
 
@@ -22,6 +24,9 @@ public class MVPManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Application.LoadLevel (Application.loadedLevel);
+		}
 	}
 
 	public void ToSelect(){

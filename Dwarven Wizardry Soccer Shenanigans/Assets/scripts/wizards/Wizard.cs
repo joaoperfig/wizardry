@@ -47,6 +47,7 @@ public class Wizard : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		Rigidbody2D rbd = gameObject.GetComponent<Rigidbody2D> (); 
 		rbd.angularVelocity = 0;
 		gameObject.transform.rotation = Quaternion.identity;

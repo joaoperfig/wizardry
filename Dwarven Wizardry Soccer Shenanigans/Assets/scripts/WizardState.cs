@@ -12,8 +12,11 @@ public class WizardState {
 
 	public float speedmodifier=1;
 
+	public bool allowswap;
+
 	public WizardState(Wizard w) {
 		wiz = w;
+		allowswap = true;
 	}
 		
 	public virtual void Update() {}

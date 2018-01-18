@@ -6,6 +6,8 @@ public class TempUI : MonoBehaviour {
 
 	private int selected = 0;
 
+	public bool ai = true;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,6 +15,9 @@ public class TempUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown ("q")) {
+			ai = !ai;
+		}
 		if (Input.GetKeyDown ("down") || Input.GetKeyDown ("s")) {
 			selected = selected + 1;
 		}
@@ -29,6 +34,7 @@ public class TempUI : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.KeypadEnter) || Input.GetKeyDown (KeyCode.Return) || Input.GetKeyDown (KeyCode.Space)) {
 			GameObject man = GameObject.Find ("Manager");
 			MVPManager mvp = man.GetComponent<MVPManager> ();
+			mvp.ai = ai;
 			if (selected == 0) {
 				mvp.ToSelect ();
 			}

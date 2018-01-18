@@ -43,8 +43,5 @@ public class CameraOrder : MonoBehaviour {
 		Vector3 delta = destination - gameObject.transform.position;
 		increment = delta / time;
 		sizeinc = (size-cam.orthographicSize)  / time;
-		Debug.Log (size);
-		Debug.Log (cam.orthographicSize);
-		Debug.Log (sizeinc);
 	}
 }

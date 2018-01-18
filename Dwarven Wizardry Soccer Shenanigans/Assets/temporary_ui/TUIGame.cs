@@ -31,6 +31,12 @@ public class TUIGame : MonoBehaviour {
 		leftc = GameObject.Find ("LeftController").GetComponent<GameController> ();
 		rightc = GameObject.Find ("RightController").GetComponent<GameController> ();
 
+		GameObject man = GameObject.Find ("Manager");
+		MVPManager mvp = man.GetComponent<MVPManager> ();
+		if (mvp.ai) {
+			rightc = GameObject.Find ("AIController").GetComponent<GameController> ();
+		}
+
 		lefta = GameObject.Find ("AbilityWindowL").GetComponent<AbilityWindow> ();
 		righta = GameObject.Find ("AbilityWindowR").GetComponent<AbilityWindow> ();
 

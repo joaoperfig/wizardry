@@ -10,6 +10,8 @@ public class CourriedWizardState : WizardState {
 		allowsmovement = false;
 
 		allowsabilities = false;
+
+		allowswap = false;
 	}
 
 	public override void Update() {
