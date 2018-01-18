@@ -11,6 +11,7 @@ public class Wizard : MonoBehaviour {
 	public GameController controller;
 
 	public int teamtag;
+	public int speedCompensation;
 
 	public float basespeed;
 
@@ -58,14 +59,19 @@ public class Wizard : MonoBehaviour {
 			if (pressedleft) {dir = dir + new Vector2 (-1, 0);}
 			if (pressedright){dir = dir + new Vector2 ( 1, 0);}
 
-			if ((dir.x == 0) && (dir.y == 0)){  dir = lastdir; stopAnimation ();}
+			if ((dir.x == 0) && (dir.y == 0)){
+				dir = lastdir;
+				stopAnimation ();
+				rbd.velocity = new Vector3(0,0,0); 
+			}
 			else{
 				dir.Normalize ();
 				lastdir = dir;
 				walkAnimation ();
 				Vector2 delta2 = (dir * (basespeed * Time.deltaTime * state.speedmodifier));
 				Vector3 delta3 = new Vector3 (delta2.x, delta2.y, 0f);
-				this.gameObject.transform.position = this.gameObject.transform.position + delta3;
+				//this.gameObject.transform.position = this.gameObject.transform.position + delta3;
+				rbd.velocity = delta3 * speedCompensation;
 			}
 		}
 		if (state.allowsabilities){

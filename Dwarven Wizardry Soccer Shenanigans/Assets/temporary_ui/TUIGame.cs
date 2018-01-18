@@ -17,6 +17,8 @@ public class TUIGame : MonoBehaviour {
 	public AbilityWindow lefta;
 	public AbilityWindow righta;
 
+	public int wizardSpeed;
+
 	private float start;
 	public float waitime;
 
@@ -65,6 +67,9 @@ public class TUIGame : MonoBehaviour {
 				GameObject.Instantiate (poof, new Vector3 (-5, -3, 0), Quaternion.identity);
 				rightWiz = GameObject.Instantiate (rightWiz, new Vector3 (5, -3, 0), Quaternion.identity);
 				GameObject.Instantiate (poof, new Vector3 (5, -3, 0), Quaternion.identity);
+
+				leftWiz.GetComponent<Wizard>().speedCompensation = this.wizardSpeed;
+				rightWiz.GetComponent<Wizard>().speedCompensation = this.wizardSpeed;
 
 				ball = GameObject.Instantiate (ball, new Vector3 (0, -3, 0), Quaternion.identity);
 				GameObject.Instantiate (poof, new Vector3 (0, -3, 0), Quaternion.identity);

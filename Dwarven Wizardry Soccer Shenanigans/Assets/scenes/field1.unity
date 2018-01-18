@@ -514,7 +514,8 @@ Prefab:
       propertyPath: controled
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114452807731362846, guid: f02757f355a07ba4897c3d636c24847f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f02757f355a07ba4897c3d636c24847f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &464232306
@@ -1165,6 +1166,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 583619bb0d088b84580976beced08e7c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1732338389 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1068848860114516, guid: f02757f355a07ba4897c3d636c24847f,
+    type: 2}
+  m_PrefabInternal: {fileID: 375010916}
+--- !u!114 &1732338390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732338389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f69898412cc1349b5303a793ee8f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controled: {fileID: 0}
+  controledws: []
+  ball: {fileID: 0}
+  actionRadius: 0.6
 --- !u!1 &1799589726
 GameObject:
   m_ObjectHideFlags: 0
