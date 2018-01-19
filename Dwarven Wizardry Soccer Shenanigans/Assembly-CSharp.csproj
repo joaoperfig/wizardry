@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GamePadInput\Demo\DemoScript.cs" />
+     <Compile Include="Assets\GamePadInput\GamePad.cs" />
      <Compile Include="Assets\scripts\abilities\Ability.cs" />
      <Compile Include="Assets\scripts\abilities\BasicAbility.cs" />
      <Compile Include="Assets\scripts\abilities\BigFireBall.cs" />
@@ -70,13 +72,20 @@
      <Compile Include="Assets\scripts\abilities\SmallFireBall.cs" />
      <Compile Include="Assets\scripts\AbilityCover.cs" />
      <Compile Include="Assets\scripts\AbilityWindow.cs" />
-     <Compile Include="Assets\scripts\AIController.cs" />
      <Compile Include="Assets\scripts\Arrow.cs" />
      <Compile Include="Assets\scripts\Ball.cs" />
      <Compile Include="Assets\scripts\BallShadow.cs" />
      <Compile Include="Assets\scripts\CameraOrder.cs" />
      <Compile Include="Assets\scripts\CastingWizardState.cs" />
      <Compile Include="Assets\scripts\CastIntoState.cs" />
+     <Compile Include="Assets\scripts\controll\AIController.cs" />
+     <Compile Include="Assets\scripts\controll\AnyGPController.cs" />
+     <Compile Include="Assets\scripts\controll\GameController.cs" />
+     <Compile Include="Assets\scripts\controll\GamePadController.cs" />
+     <Compile Include="Assets\scripts\controll\LeftKeyboardController.cs" />
+     <Compile Include="Assets\scripts\controll\MiddleKeyboardController.cs" />
+     <Compile Include="Assets\scripts\controll\NumPadController.cs" />
+     <Compile Include="Assets\scripts\controll\RightKeyboardController.cs" />
      <Compile Include="Assets\scripts\CourriedWizzardState.cs" />
      <Compile Include="Assets\scripts\direct_fireball.cs" />
      <Compile Include="Assets\scripts\exploding_rune.cs" />
@@ -84,17 +93,13 @@
      <Compile Include="Assets\scripts\force_ball.cs" />
      <Compile Include="Assets\scripts\fpull_effect.cs" />
      <Compile Include="Assets\scripts\FSpeedState.cs" />
-     <Compile Include="Assets\scripts\GameController.cs" />
      <Compile Include="Assets\scripts\homing_fireball.cs" />
      <Compile Include="Assets\scripts\implode_rune.cs" />
      <Compile Include="Assets\scripts\InputSpectator.cs" />
-     <Compile Include="Assets\scripts\LeftKeyboardController.cs" />
-     <Compile Include="Assets\scripts\MiddleKeyboardController.cs" />
      <Compile Include="Assets\scripts\MVPManager.cs" />
      <Compile Include="Assets\scripts\NormalWizardState.cs" />
      <Compile Include="Assets\scripts\possession_courier.cs" />
      <Compile Include="Assets\scripts\possession_entity.cs" />
-     <Compile Include="Assets\scripts\RightKeyboardController.cs" />
      <Compile Include="Assets\scripts\RuneTeleportState.cs" />
      <Compile Include="Assets\scripts\SelfDestruct.cs" />
      <Compile Include="Assets\scripts\smoke_courier.cs" />

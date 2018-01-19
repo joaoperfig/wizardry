@@ -10,6 +10,9 @@ public class MVPManager : MonoBehaviour {
 	public GameObject randw;
 	public GameObject randa;
 
+	public GameObject leftc;
+	public GameObject rightc;
+
 	public bool ai = false;
 
 	GameObject camera;
