@@ -5,7 +5,7 @@ using UnityEngine;
 public class ForceDash : Ability {
 
 	public GameObject effect;
-	public float force = 500;
+	public float force = 200;
 
 	public ForceDash(Wizard w) : base(w){
 		cooldown = 3f;

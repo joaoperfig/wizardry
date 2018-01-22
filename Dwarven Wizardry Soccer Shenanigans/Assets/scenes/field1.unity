@@ -538,6 +538,16 @@ MonoBehaviour:
   g2c: {fileID: 21300000, guid: e68b44d9a766a3643be4f5abbd600e36, type: 3}
   g3c: {fileID: 21300000, guid: cb93bab74758e004ca3df77971c7c89e, type: 3}
   g4c: {fileID: 21300000, guid: 823a0c35854345c4fbc745dae280cfea, type: 3}
+  lcontrol: {fileID: 1505980796613568, guid: 85b45aaf46796114caeee01172df20af, type: 2}
+  rcontrol: {fileID: 1068848860114516, guid: f02757f355a07ba4897c3d636c24847f, type: 2}
+  mcontrol: {fileID: 1023520217740214, guid: 5b3c38b929d858e40be2c90837dd30cb, type: 2}
+  ncontrol: {fileID: 1522190315846846, guid: 1bc9b94fe534e3f4c986b09ea324ec9b, type: 2}
+  gpanyc: {fileID: 1978207102347994, guid: 6adead31a5480894d84b21c169bee8a0, type: 2}
+  gp1c: {fileID: 1714042952989930, guid: 6f510aaa0e73da04d8d41392b9f33692, type: 2}
+  gp2c: {fileID: 1780233792467546, guid: 9d3ed44d1c90b324ea30b6e75a6b5a1a, type: 2}
+  gp3c: {fileID: 1032317677459024, guid: 11f4839ca16c19d45ab8e63cabfc9d6f, type: 2}
+  gp4c: {fileID: 1258803067910616, guid: f843ab33b38ccdd40b7a297b541be5c6, type: 2}
+  aic: {fileID: 1004755217736592, guid: 83203b7b11d4d31459b9e4366325146e, type: 2}
 --- !u!1001 &384427680
 Prefab:
   m_ObjectHideFlags: 0
@@ -878,6 +888,16 @@ MonoBehaviour:
   g2c: {fileID: 21300000, guid: e68b44d9a766a3643be4f5abbd600e36, type: 3}
   g3c: {fileID: 21300000, guid: cb93bab74758e004ca3df77971c7c89e, type: 3}
   g4c: {fileID: 21300000, guid: 823a0c35854345c4fbc745dae280cfea, type: 3}
+  lcontrol: {fileID: 1505980796613568, guid: 85b45aaf46796114caeee01172df20af, type: 2}
+  rcontrol: {fileID: 1068848860114516, guid: f02757f355a07ba4897c3d636c24847f, type: 2}
+  mcontrol: {fileID: 1023520217740214, guid: 5b3c38b929d858e40be2c90837dd30cb, type: 2}
+  ncontrol: {fileID: 1035041630560288, guid: 2ced783e6ed2c394997da89ae67a358d, type: 2}
+  gpanyc: {fileID: 1978207102347994, guid: 6adead31a5480894d84b21c169bee8a0, type: 2}
+  gp1c: {fileID: 1714042952989930, guid: 6f510aaa0e73da04d8d41392b9f33692, type: 2}
+  gp2c: {fileID: 1780233792467546, guid: 9d3ed44d1c90b324ea30b6e75a6b5a1a, type: 2}
+  gp3c: {fileID: 1032317677459024, guid: 11f4839ca16c19d45ab8e63cabfc9d6f, type: 2}
+  gp4c: {fileID: 1258803067910616, guid: f843ab33b38ccdd40b7a297b541be5c6, type: 2}
+  aic: {fileID: 1004755217736592, guid: 83203b7b11d4d31459b9e4366325146e, type: 2}
 --- !u!212 &835813567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1368,6 +1388,8 @@ MonoBehaviour:
   selector: {fileID: 1123528096767916, guid: 08533da6734298440a014abb56c194ac, type: 2}
   randw: {fileID: 1592187968288918, guid: f16b61e30cc38764bb1e24be30b39fb7, type: 2}
   randa: {fileID: 1173064946413308, guid: a2d2938fffd646041acb0baac7ba2820, type: 2}
+  leftc: {fileID: 0}
+  rightc: {fileID: 0}
   ai: 0
 --- !u!4 &1560108608
 Transform:

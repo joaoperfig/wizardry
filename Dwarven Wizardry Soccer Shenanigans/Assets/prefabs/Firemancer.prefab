@@ -183,6 +183,7 @@ MonoBehaviour:
   teamtag: 0
   speedCompensation: 0
   basespeed: 3
+  brakes: 0.1
   pressedup: 0
   presseddown: 0
   pressedleft: 0

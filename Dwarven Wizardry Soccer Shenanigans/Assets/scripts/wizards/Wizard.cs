@@ -14,6 +14,7 @@ public class Wizard : MonoBehaviour {
 	public int speedCompensation;
 
 	public float basespeed;
+	public float brakes;
 
 	public bool pressedup = false;
 	public bool presseddown = false;
@@ -63,16 +64,37 @@ public class Wizard : MonoBehaviour {
 			if ((dir.x == 0) && (dir.y == 0)){
 				dir = lastdir;
 				stopAnimation ();
-				rbd.velocity = new Vector3(0,0,0); 
+				rbd.velocity = rbd.velocity * Mathf.Pow (brakes, Time.deltaTime);
 			}
 			else{
 				dir.Normalize ();
-				lastdir = dir;
 				walkAnimation ();
 				Vector2 delta2 = (dir * (basespeed * Time.deltaTime * state.speedmodifier));
 				Vector3 delta3 = new Vector3 (delta2.x, delta2.y, 0f);
 				//this.gameObject.transform.position = this.gameObject.transform.position + delta3;
-				rbd.velocity = delta3 * speedCompensation;
+
+				delta3 = delta3 * speedCompensation;
+
+				//ensures that if the player is going fast forward, he doesnt instantly slow down for keeping on walking
+				if (rbd.velocity.x * delta3.x > 0) {     // if velocity points in the same direction as walking
+					float maybex = Mathf.Max (rbd.velocity.x, -rbd.velocity.x, delta3.x, -delta3.x); // new velocity.x will be max(oldvelocity.x, walking.x)
+					if (delta3.x < 0) {
+						maybex = -maybex;
+					}
+					delta3.x = maybex;
+				}
+				//ensures that if the player is going fast forward, he doesnt instantly slow down for keeping on walking
+				if (rbd.velocity.y * delta3.y > 0) {        
+					float maybey = Mathf.Max (rbd.velocity.y, -rbd.velocity.y, delta3.y, -delta3.y);
+					if (delta3.y < 0) {
+						maybey = -maybey;
+					}
+					delta3.y = maybey;
+				}
+
+				rbd.velocity = delta3;
+
+				lastdir = dir;
 			}
 		}
 		if (state.allowsabilities){
