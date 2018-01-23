@@ -11,6 +11,6 @@ public class FireSpeed : Ability {
 	}
 
 	public override void magic() {
-		wiz.state = new CastIntoState (wiz, this, new FSpeedState(wiz));
+		wiz.state = new CastIntoEffect (wiz, this, new FPSpeedEffect (wiz), wiz.state);
 	}
 }

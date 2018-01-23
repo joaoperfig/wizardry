@@ -9,8 +9,8 @@ public class RuneScribe : MonoBehaviour {
 		Wizard w = gameObject.GetComponent<Wizard> ();
 		w.abilities = new Ability[4];
 		w.abilities [0] = new RuneBasic (w);
-		w.abilities [1] = new RuneTeleport (w);
+		w.abilities [1] = new RuneImplode (w);
 		w.abilities [2] = new RuneExplode (w);
-		w.abilities [3] = new RuneImplode (w);
+		w.abilities [3] = new RuneTeleport (w);
 	}
 }

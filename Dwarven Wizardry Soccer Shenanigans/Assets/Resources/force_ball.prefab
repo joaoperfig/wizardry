@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 58342863065234002}
   m_Layer: 0
   m_Name: force_ball
-  m_TagString: Untagged
+  m_TagString: DestroyOnEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  force: 50
+  force: 40
   direction: {x: -1, y: 0}
   effect: {fileID: 1464525536095562, guid: 1026591cb3afdc34fa16b8b4e3c27bbd, type: 2}
 --- !u!212 &212229954591976960

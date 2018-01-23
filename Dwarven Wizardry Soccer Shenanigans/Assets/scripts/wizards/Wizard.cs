@@ -5,6 +5,7 @@ using UnityEngine;
 public class Wizard : MonoBehaviour {
 
 	public WizardState state;
+	public List<WizardEffect> effects;
 
 	public Ability[] abilities;
 
@@ -40,10 +41,42 @@ public class Wizard : MonoBehaviour {
  
 	// Use this for initialization
 	void Start () {
-		
+		effects = new List<WizardEffect> ();
 		state =  new NormalWizardState (this);
 		animator = gameObject.GetComponent<Animator> ();
 
+	}
+
+	public bool effectsallowmovement(){
+		foreach (WizardEffect ef in effects) {
+			if (!ef.allowsmovement) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public bool effectsallowabilities(){
+		foreach (WizardEffect ef in effects) {
+			if (!ef.allowsabilities) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public float effectspeedmodifiers(){
+		float res = 1;
+		foreach (WizardEffect ef in effects) {
+			res = res * ef.speedmodifier;
+		}
+		return res;
+	}
+
+	public void UpdateEffects(){
+		foreach (WizardEffect ef in effects) {
+			ef.Update ();
+		}
 	}
 	
 	// Update is called once per frame
@@ -53,23 +86,32 @@ public class Wizard : MonoBehaviour {
 		rbd.angularVelocity = 0;
 		gameObject.transform.rotation = Quaternion.identity;
 		state.Update ();
+		UpdateEffects ();
 		controller.check ();
-		if (state.allowsmovement) {
-			Vector2 dir = new Vector2 ();
-			if (pressedup)   {dir = dir + new Vector2 (0,  1);}
-			if (presseddown) {dir = dir + new Vector2 (0, -1);}
-			if (pressedleft) {dir = dir + new Vector2 (-1, 0);}
-			if (pressedright){dir = dir + new Vector2 ( 1, 0);}
 
-			if ((dir.x == 0) && (dir.y == 0)){
-				dir = lastdir;
-				stopAnimation ();
-				rbd.velocity = rbd.velocity * Mathf.Pow (brakes, Time.deltaTime);
+		bool zerodir = false;
+		Vector2 dir = new Vector2 ();                       //calculates this so that arrow works despite not being allowed to move
+		if (pressedup)   {dir = dir + new Vector2 (0,  1);}
+		if (presseddown) {dir = dir + new Vector2 (0, -1);}
+		if (pressedleft) {dir = dir + new Vector2 (-1, 0);}
+		if (pressedright){dir = dir + new Vector2 ( 1, 0);}
+
+		if ((dir.x == 0) && (dir.y == 0)){
+			dir = lastdir;
+			rbd.velocity = rbd.velocity * Mathf.Pow (brakes, Time.deltaTime);
+			stopAnimation ();
+			zerodir = true;
+		}
+
+		if (state.allowsmovement && effectsallowmovement()) {
+
+			if (zerodir){
+				//was moved to out of allowsmovement verification;
 			}
 			else{
 				dir.Normalize ();
 				walkAnimation ();
-				Vector2 delta2 = (dir * (basespeed * Time.deltaTime * state.speedmodifier));
+				Vector2 delta2 = (dir * (basespeed * Time.deltaTime * state.speedmodifier * effectspeedmodifiers()));
 				Vector3 delta3 = new Vector3 (delta2.x, delta2.y, 0f);
 				//this.gameObject.transform.position = this.gameObject.transform.position + delta3;
 
@@ -97,7 +139,7 @@ public class Wizard : MonoBehaviour {
 				lastdir = dir;
 			}
 		}
-		if (state.allowsabilities){
+		if (state.allowsabilities &&  effectsallowabilities()){
 			if (pressed1) {	ability1();}
 			if (pressed2) {	ability2();}
 			if (pressed3) {	ability3();}

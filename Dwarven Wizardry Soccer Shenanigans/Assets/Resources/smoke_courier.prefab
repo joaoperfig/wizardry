@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 58600990745090682}
   m_Layer: 0
   m_Name: smoke_courier
-  m_TagString: Untagged
+  m_TagString: DestroyOnEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

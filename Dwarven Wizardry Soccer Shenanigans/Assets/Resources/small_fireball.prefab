@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114463730927006876}
   m_Layer: 0
   m_Name: small_fireball
-  m_TagString: Untagged
+  m_TagString: DestroyOnEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,8 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialsp: 2
   speed: 20
-  controlspeed: 4
-  force: 6
+  controlspeed: 5
+  force: 7
   explosion: {fileID: 1559583007174998, guid: decaca8480d723f4f83741f17cc108ca, type: 2}
 --- !u!212 &212119038148085242
 SpriteRenderer:

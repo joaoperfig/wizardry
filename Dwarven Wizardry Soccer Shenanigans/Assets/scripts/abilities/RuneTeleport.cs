@@ -10,8 +10,8 @@ public class RuneTeleport : Ability {
 	private teleport_rune current;
 
 	public RuneTeleport(Wizard w) : base(w){
-		cooldown = 2f;
-		castduration = 0.3f;
+		cooldown = 5f;
+		castduration = 0.5f;
 		rune = (GameObject)Resources.Load ("teleport_rune");
 		logo = findlogo("ability_icons_1_9");
 	}

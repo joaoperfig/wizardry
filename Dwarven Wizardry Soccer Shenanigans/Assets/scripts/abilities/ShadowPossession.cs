@@ -9,7 +9,7 @@ public class ShadowPossession : Ability {
 	private GameObject courier;
 
 	public ShadowPossession(Wizard w) : base(w){
-		cooldown = 8f;
+		cooldown = 9f;
 		castduration = 0f;
 		smoke = (GameObject)Resources.Load ("smoke_explosion");
 		courier = (GameObject)Resources.Load ("possession_courier");

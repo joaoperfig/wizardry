@@ -5,11 +5,13 @@ using UnityEngine;
 public class implode_rune : MonoBehaviour {
 
 	public float force;
+	public int friendlyteam;
 
 	public float duration;
 	public float destroytime;
 	private float starttime;
 	private bool exploded = false;
+
 
 	void Start(){
 		starttime = Time.time;
@@ -31,18 +33,33 @@ public class implode_rune : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D other){
-		if (other.gameObject.tag == "Ball") {
+		if (other.gameObject.tag == "Wizard") {
 			if (!(exploded)) {
-				Animator anim = gameObject.GetComponent<Animator> ();
+				Wizard collided = other.GetComponent<Wizard> ();
+				if (collided.teamtag == friendlyteam) {
+					bool found = false;
+					foreach (WizardEffect ef in collided.effects) {
+						if (ef is RuneSpeedEffect) {
+							((RuneSpeedEffect)ef).starttime = Time.time;
+							found = true;
+						}
 
-				anim.SetTrigger ("explode");
+					}
+					if (!found) {
+						collided.effects.Add (new RuneSpeedEffect (collided));
+					}
 
 
-				Rigidbody2D orb = other.gameObject.GetComponent<Rigidbody2D> ();
-				Vector2 diff = orb.gameObject.transform.position - gameObject.transform.position;
-				orb.velocity = orb.velocity - diff * force;
+				} else {
+					
+					Animator anim = gameObject.GetComponent<Animator> ();
+					anim.SetTrigger ("explode");
 
-				exploded = true;
+
+					collided.effects.Add (new RuneStunEffect (collided));
+
+					exploded = true;
+				}
 			}
 
 		}

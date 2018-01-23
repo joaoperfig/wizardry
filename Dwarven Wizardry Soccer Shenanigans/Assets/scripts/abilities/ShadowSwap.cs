@@ -9,7 +9,7 @@ public class ShadowSwap : Ability {
 	private GameObject otherw;
 
 	public ShadowSwap(Wizard w) : base(w){
-		cooldown = 8f;
+		cooldown = 9f;
 		castduration = 0.5f;
 		smoke = (GameObject)Resources.Load ("smoke_explosion");
 		logo = findlogo("abilty_icons_shadow_4");

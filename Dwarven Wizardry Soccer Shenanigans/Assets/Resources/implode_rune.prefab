@@ -87,7 +87,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 12
-  duration: 20
+  friendlyteam: 0
+  duration: 7
   destroytime: 2
 --- !u!212 &212874346643204336
 SpriteRenderer:

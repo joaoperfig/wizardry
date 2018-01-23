@@ -19,6 +19,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 2e2dc7d211fbfd316c1e7741e8f95094 Assembly-CSharp.dll:.CursorSet
 ce3825ef5d1af21ecebf2557b685f9c1 Assembly-CSharp.dll:.MVPManager
+beddf9669aa68da67733f2b6282949a8 Assembly-CSharp.dll:.GamePadController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraOrder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Weirdo
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.LeftKeyboardController
@@ -117,7 +118,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 ab448eff61abf5bc99b7ec190469be51 Assembly-CSharp.dll:.TUIRandWiz
-4742789f8751f0af084d2ceb920154f7 Assembly-CSharp.dll:.Wizard
+6dfdfa3b2aa913d4c59d0ee7fceb3989 Assembly-CSharp.dll:.Wizard
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RuneScribe
 e10e82fa4c21dcd17c576bd4af3b00a9 Assembly-CSharp.dll:.TUISelector
 7516ed4546d43130fbde957ea62cd1e5 Assembly-CSharp.dll:.TempUI
@@ -130,7 +131,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 2ee7741eef16f7875d77b50dffb61596 Assembly-CSharp.dll:.exploding_rune
-2ee7741eef16f7875d77b50dffb61596 Assembly-CSharp.dll:.implode_rune
+d1dffd8993dc96b2c569e66b390b7619 Assembly-CSharp.dll:.implode_rune
 af510cf03dcd46055d482432073ad0fe Assembly-CSharp.dll:.AbilityWindow
 25a8032d233df72c368030798802d97d Assembly-CSharp.dll:.Arrow
 14287226e1be2109021ff64a763ec489 Assembly-CSharp.dll:.Ball
@@ -177,10 +178,9 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RandomWiz
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Thaumaturge
+fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.AnyGPController
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.MiddleKeyboardController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Firemancer
+fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
 f30ed217694c716cc94a484ef7d66ded Assembly-CSharp.dll:.BallShadow
 d2a3fcd7f1c482a3a91f8f33996d4c84 Assembly-CSharp.dll:.InputSpectator
-fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.AnyGPController
-fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
-beddf9669aa68da67733f2b6282949a8 Assembly-CSharp.dll:.GamePadController

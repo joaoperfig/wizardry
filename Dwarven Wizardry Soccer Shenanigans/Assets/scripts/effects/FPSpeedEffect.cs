@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FSpeedState : WizardState {
+public class FPSpeedEffect : WizardEffect {
 
 	private GameObject flameeffect;
 	private float effectdur = 4;
 	private float starttime;
 
-	public FSpeedState(Wizard w) : base(w) {
+	public FPSpeedEffect(Wizard w) : base(w) {
 		allowsmovement = true;
 
 		allowsabilities = true;
@@ -24,9 +24,9 @@ public class FSpeedState : WizardState {
 	public override void Update() {
 		if (Time.time >= starttime + effectdur) {
 			MonoBehaviour.Destroy (flameeffect);
-			wiz.state = new NormalWizardState (wiz);
+			wiz.effects.Remove (this);
+			Debug.Log ("REMOVE");
 		}
-		
-		
+
 	}
 }

@@ -56,6 +56,10 @@ public class TUIGame : MonoBehaviour {
 		foreach (GameObject ru in GameObject.FindGameObjectsWithTag("Rune")) {
 			Destroy (ru);
 		}
+		foreach (GameObject de in GameObject.FindGameObjectsWithTag("DestroyOnEnd")) {
+			Destroy (de);
+		}
+
 
 		Destroy (gameObject);
 	}

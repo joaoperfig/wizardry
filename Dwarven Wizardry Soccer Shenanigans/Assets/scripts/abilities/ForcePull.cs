@@ -6,10 +6,10 @@ public class ForcePull : Ability {
 
 	public GameObject effect;
 	public GameObject ball;
-	public float force = 70;
+	public float force = 60;
 
 	public ForcePull(Wizard w) : base(w){
-		cooldown = 4f;
+		cooldown = 5f;
 		castduration = 0.5f;
 		effect = (GameObject)Resources.Load ("force_attraction");
 		logo = findlogo("ability_icons_1_16");
