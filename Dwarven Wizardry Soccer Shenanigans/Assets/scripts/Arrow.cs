@@ -14,11 +14,11 @@ public class Arrow : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		Vector2 dir = wiz.lastdir;
 		float rotat = Mathf.Atan2 (dir.x, dir.y) * Mathf.Rad2Deg;
-		gameObject.transform.rotation = Quaternion.Euler (0f, 0f, -rotat );
 		Vector2 pos = dir * distance;
+		gameObject.transform.rotation = Quaternion.Euler (0f, 0f, -rotat );
 		gameObject.transform.localPosition = new Vector3 (Mathf.Abs(pos.x), pos.y, 0);
 	}
 }
