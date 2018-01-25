@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\dark_trail.cs" />
      <Compile Include="Assets\GamePadInput\Demo\DemoScript.cs" />
      <Compile Include="Assets\GamePadInput\GamePad.cs" />
+     <Compile Include="Assets\rotator.cs" />
      <Compile Include="Assets\scripts\abilities\Ability.cs" />
      <Compile Include="Assets\scripts\abilities\BasicAbility.cs" />
      <Compile Include="Assets\scripts\abilities\BigFireBall.cs" />
@@ -70,12 +72,18 @@
      <Compile Include="Assets\scripts\abilities\ShadowPossession.cs" />
      <Compile Include="Assets\scripts\abilities\ShadowSwap.cs" />
      <Compile Include="Assets\scripts\abilities\SmallFireBall.cs" />
+     <Compile Include="Assets\scripts\abilities\Tentacle.cs" />
+     <Compile Include="Assets\scripts\abilities\TentacleBasic.cs" />
+     <Compile Include="Assets\scripts\abilities\TentacleGhost.cs" />
+     <Compile Include="Assets\scripts\abilities\TentacleTrail.cs" />
      <Compile Include="Assets\scripts\AbilityCover.cs" />
      <Compile Include="Assets\scripts\AbilityWindow.cs" />
      <Compile Include="Assets\scripts\Arrow.cs" />
      <Compile Include="Assets\scripts\Ball.cs" />
      <Compile Include="Assets\scripts\BallShadow.cs" />
+     <Compile Include="Assets\scripts\BallState.cs" />
      <Compile Include="Assets\scripts\CameraOrder.cs" />
+     <Compile Include="Assets\scripts\CarriedBallState.cs" />
      <Compile Include="Assets\scripts\controll\AIController.cs" />
      <Compile Include="Assets\scripts\controll\AnyGPController.cs" />
      <Compile Include="Assets\scripts\controll\GameController.cs" />
@@ -86,8 +94,11 @@
      <Compile Include="Assets\scripts\controll\RightKeyboardController.cs" />
      <Compile Include="Assets\scripts\direct_fireball.cs" />
      <Compile Include="Assets\scripts\effects\FPSpeedEffect.cs" />
+     <Compile Include="Assets\scripts\effects\LeaveTrailEffect.cs" />
      <Compile Include="Assets\scripts\effects\RuneSpeedEffect.cs" />
      <Compile Include="Assets\scripts\effects\RuneStunEffect.cs" />
+     <Compile Include="Assets\scripts\effects\Tentacled.cs" />
+     <Compile Include="Assets\scripts\effects\TrailSlowEffect.cs" />
      <Compile Include="Assets\scripts\effects\WizardEffect.cs" />
      <Compile Include="Assets\scripts\exploding_rune.cs" />
      <Compile Include="Assets\scripts\fdash_effect.cs" />
@@ -97,17 +108,20 @@
      <Compile Include="Assets\scripts\implode_rune.cs" />
      <Compile Include="Assets\scripts\InputSpectator.cs" />
      <Compile Include="Assets\scripts\MVPManager.cs" />
+     <Compile Include="Assets\scripts\NormalBallState.cs" />
      <Compile Include="Assets\scripts\possession_courier.cs" />
      <Compile Include="Assets\scripts\possession_entity.cs" />
      <Compile Include="Assets\scripts\RuneTeleportState.cs" />
      <Compile Include="Assets\scripts\SelfDestruct.cs" />
      <Compile Include="Assets\scripts\smoke_courier.cs" />
      <Compile Include="Assets\scripts\teleport_rune.cs" />
+     <Compile Include="Assets\scripts\warlock_tentacle.cs" />
      <Compile Include="Assets\scripts\wizards\Firemancer.cs" />
      <Compile Include="Assets\scripts\wizards\Occultist.cs" />
      <Compile Include="Assets\scripts\wizards\RandomWiz.cs" />
      <Compile Include="Assets\scripts\wizards\RuneScribe.cs" />
      <Compile Include="Assets\scripts\wizards\Thaumaturge.cs" />
+     <Compile Include="Assets\scripts\wizards\Warlock.cs" />
      <Compile Include="Assets\scripts\wizards\Weirdo.cs" />
      <Compile Include="Assets\scripts\wizards\Wizard.cs" />
      <Compile Include="Assets\scripts\wizardstate\CastingWizardState.cs" />
@@ -126,6 +140,7 @@
      <Compile Include="Assets\temporary_ui\TUIRandAll.cs" />
      <Compile Include="Assets\temporary_ui\TUIRandWiz.cs" />
      <Compile Include="Assets\temporary_ui\TUISelector.cs" />
+     <Compile Include="Assets\tentacle_push.cs" />
      <None Include="Assets\materials\normalmap.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

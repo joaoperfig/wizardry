@@ -117,10 +117,10 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-ab448eff61abf5bc99b7ec190469be51 Assembly-CSharp.dll:.TUIRandWiz
+4373a9e99a5fc7550d23e7b7f8fefcdb Assembly-CSharp.dll:.TUIRandWiz
 6dfdfa3b2aa913d4c59d0ee7fceb3989 Assembly-CSharp.dll:.Wizard
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RuneScribe
-e10e82fa4c21dcd17c576bd4af3b00a9 Assembly-CSharp.dll:.TUISelector
+18836f9acf5d04e9abd6f77051579b7e Assembly-CSharp.dll:.TUISelector
 7516ed4546d43130fbde957ea62cd1e5 Assembly-CSharp.dll:.TempUI
 c7f86a8dd6879161ad542d0575ddc8a5 Assembly-CSharp.dll:.showaistatus
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -184,3 +184,8 @@ fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.MiddleKeyboardController
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
 f30ed217694c716cc94a484ef7d66ded Assembly-CSharp.dll:.BallShadow
 d2a3fcd7f1c482a3a91f8f33996d4c84 Assembly-CSharp.dll:.InputSpectator
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Warlock
+3651abe4fbfb5b8a0c076bb1499c6aae Assembly-CSharp.dll:.warlock_tentacle
+391760d0046a2670e78075978a043d71 Assembly-CSharp.dll:.tentacle_push
+a48e692ecf8b94257ab68a315748dc94 Assembly-CSharp.dll:.rotator
+70a7ddc4c8f8069737dbcea5c662e026 Assembly-CSharp.dll:.dark_trail

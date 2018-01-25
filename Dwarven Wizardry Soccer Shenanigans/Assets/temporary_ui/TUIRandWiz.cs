@@ -25,6 +25,7 @@ public class TUIRandWiz : MonoBehaviour {
 	public GameObject wiz2;
 	public GameObject wiz3;
 	public GameObject wiz4;
+	public GameObject wiz5;
 	public GameObject[] wizards;
 
 	// Use this for initialization
@@ -32,7 +33,7 @@ public class TUIRandWiz : MonoBehaviour {
 		camera = GameObject.Find ("Main Camera");
 		co = camera.GetComponent<CameraOrder> ();
 		start = Time.time;
-		wizards = new GameObject[4]{ wiz1, wiz2, wiz3, wiz4 };
+		wizards = new GameObject[5]{ wiz1, wiz2, wiz3, wiz4, wiz5 };
 	}
 
 	// Update is called once per frame

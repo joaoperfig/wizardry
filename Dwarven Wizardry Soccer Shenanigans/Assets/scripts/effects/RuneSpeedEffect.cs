@@ -25,7 +25,6 @@ public class RuneSpeedEffect : WizardEffect {
 		if (Time.time >= starttime + effectdur) {
 			MonoBehaviour.Destroy (runeeffect);
 			wiz.effects.Remove (this);
-			Debug.Log ("REMOVE");
 		}
 
 	}

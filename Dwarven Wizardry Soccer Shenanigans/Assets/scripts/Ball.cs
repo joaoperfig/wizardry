@@ -8,6 +8,7 @@ public class Ball : MonoBehaviour {
 
 	private Animator anim;
 	private Rigidbody2D rbd;
+	public BallState state;
 
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.gameObject.tag == "Goal") {
@@ -23,10 +24,12 @@ public class Ball : MonoBehaviour {
 	void Start () {
 		anim = gameObject.GetComponent<Animator> ();
 		rbd = gameObject.GetComponent<Rigidbody2D> ();
+		state = new NormalBallState (this);
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		state.Update ();
 		anim.SetFloat ("speed", animspeedscalar*Mathf.Sqrt (rbd.velocity.sqrMagnitude));
 	}
 }
