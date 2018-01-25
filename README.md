@@ -5,5 +5,5 @@ Dwarven Wizardry Soccer Shenanigans!!!
 A fun-packed game about Dwarven Wizards playing soccer.
 
 ### setup:
-- download and install from [the Official Website](http://web.tecnico.ulisboa.pt/ist426484/wizardry/)
+Download and install from [the Official Website](http://web.tecnico.ulisboa.pt/ist426484/wizardry/)
 
