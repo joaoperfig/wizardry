@@ -18,10 +18,20 @@ public class ShadowPossession : Ability {
 
 	public override void magic() {
 		GameObject.Instantiate (smoke, wiz.transform.position, Quaternion.identity);
-		GameObject cou = GameObject.Instantiate (courier, wiz.transform.position, Quaternion.identity);
-		possession_courier sc = cou.GetComponent<possession_courier> ();
-		sc.carrying = wiz;
-		wiz.state = new CastIntoState (wiz, this, new CourriedWizardState (wiz));
+
+		GameObject[] balls = GameObject.FindGameObjectsWithTag ("Ball");
+		GameObject ball = balls [0];
+		foreach (GameObject b in balls) {
+			if ((wiz.gameObject.transform.position - b.transform.position).sqrMagnitude <= (wiz.gameObject.transform.position - ball.transform.position).sqrMagnitude) {
+				ball = b;
+			}
+		}
+		if (ball.GetComponent<Ball> ().state.canreach) {
+			GameObject cou = GameObject.Instantiate (courier, wiz.transform.position, Quaternion.identity);
+			possession_courier sc = cou.GetComponent<possession_courier> ();
+			sc.carrying = wiz;
+			wiz.state = new CastIntoState (wiz, this, new CourriedWizardState (wiz));
+		}
 	}
 
 

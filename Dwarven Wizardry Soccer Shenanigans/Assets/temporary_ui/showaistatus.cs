@@ -110,37 +110,26 @@ public class showaistatus : MonoBehaviour {
 		switch (stat) {
 		case 0:
 			return GameObject.Instantiate(lcontrol);
-			break;
 		case 1:
 			return GameObject.Instantiate(rcontrol);
-			break;
 		case 2:
 			return GameObject.Instantiate(mcontrol);
-			break;
 		case 3:
 			return GameObject.Instantiate(ncontrol);
-			break;
 		case 4:
 			return GameObject.Instantiate(gpanyc);
-			break;
 		case 5:
 			return GameObject.Instantiate(gp1c);
-			break;
 		case 6:
 			return GameObject.Instantiate(gp2c);
-			break;
 		case 7:
 			return GameObject.Instantiate(gp3c);
-			break;
 		case 8:
 			return GameObject.Instantiate(gp4c);
-			break;
 		case 9:
 			return GameObject.Instantiate(aic);
-			break;
 		default:
 			return null;
-			break;
 		}
 	}
 }

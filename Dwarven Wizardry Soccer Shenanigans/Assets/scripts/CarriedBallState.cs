@@ -5,6 +5,7 @@ using UnityEngine;
 public class CarriedBallState : BallState {
 
 	public CarriedBallState(Ball b) : base(b){
+		canreach = false;
 	}
 
 	public override void Update () {

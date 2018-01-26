@@ -29,45 +29,45 @@ public class GameController : MonoBehaviour {
 
 	public virtual void check ()	{}
 
-	internal void up() {
+	public void up() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressedup = true;
 		}
 	}
 
-	internal void down() {
+	public void down() {
 		foreach (Wizard wiz in controledws) {
 			wiz.presseddown = true;
 		}
 	}
 
-	internal void left() {
+	public void left() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressedleft = true;
 		}
 	}
 
-	internal void right() {
+	public void right() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressedright = true;
 		}
 	}
-	internal void b1() {
+	public void b1() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressed1 = true;
 		}
 	}
-	internal void b2() {
+	public void b2() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressed2 = true;
 		}
 	}
-	internal void b3() {
+	public void b3() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressed3 = true;
 		}
 	}
-	internal void b4() {
+	public void b4() {
 		foreach (Wizard wiz in controledws) {
 			wiz.pressed4 = true;
 		}

@@ -84,7 +84,14 @@
      <Compile Include="Assets\scripts\BallState.cs" />
      <Compile Include="Assets\scripts\CameraOrder.cs" />
      <Compile Include="Assets\scripts\CarriedBallState.cs" />
-     <Compile Include="Assets\scripts\controll\AIController.cs" />
+     <Compile Include="Assets\scripts\controll\ai\abilitystrat\AbilityStrategy.cs" />
+     <Compile Include="Assets\scripts\controll\ai\abilitystrat\ASBasicKick.cs" />
+     <Compile Include="Assets\scripts\controll\ai\abilitystrat\ASRandom.cs" />
+     <Compile Include="Assets\scripts\controll\ai\AIController.cs" />
+     <Compile Include="Assets\scripts\controll\ai\AIStrat.cs" />
+     <Compile Include="Assets\scripts\controll\ai\AIStratAttack.cs" />
+     <Compile Include="Assets\scripts\controll\ai\AIStratDefend.cs" />
+     <Compile Include="Assets\scripts\controll\ai\AIStrategyController.cs" />
      <Compile Include="Assets\scripts\controll\AnyGPController.cs" />
      <Compile Include="Assets\scripts\controll\GameController.cs" />
      <Compile Include="Assets\scripts\controll\GamePadController.cs" />

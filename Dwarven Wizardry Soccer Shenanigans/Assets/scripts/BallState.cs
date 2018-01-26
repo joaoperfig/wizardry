@@ -5,6 +5,7 @@ using UnityEngine;
 public class BallState {
 	public Ball ball;
 
+	public bool canreach;
 
 	public BallState(Ball b) {
 		ball = b;

@@ -134,12 +134,14 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 d1dffd8993dc96b2c569e66b390b7619 Assembly-CSharp.dll:.implode_rune
 af510cf03dcd46055d482432073ad0fe Assembly-CSharp.dll:.AbilityWindow
 25a8032d233df72c368030798802d97d Assembly-CSharp.dll:.Arrow
+391760d0046a2670e78075978a043d71 Assembly-CSharp.dll:.tentacle_push
 14287226e1be2109021ff64a763ec489 Assembly-CSharp.dll:.Ball
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Occultist
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DemoScript
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 1c7979acbcd8cf898c9f7b78ddd695fa Assembly-CSharp.dll:.direct_fireball
+3651abe4fbfb5b8a0c076bb1499c6aae Assembly-CSharp.dll:.warlock_tentacle
 9176f11ac7f59adf8f45867485496768 Assembly-CSharp.dll:.AIController
 5b5f728344e2a781df9bf7f53b997f24 Assembly-CSharp.dll:.SelfDestruct
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -156,6 +158,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Warlock
 360aa1ed60a43b10c29e7bd7b4c0a10f Assembly-CSharp.dll:.possession_entity
 6477be1cb660bb6b55f0c1fdfb1c4dc0 Assembly-CSharp.dll:.fpull_effect
 3733297122cc1209ef7c6872e43da7a2 Assembly-CSharp.dll:.TUIRandAll
@@ -180,12 +183,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Thaumaturge
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.AnyGPController
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.MiddleKeyboardController
+70a7ddc4c8f8069737dbcea5c662e026 Assembly-CSharp.dll:.dark_trail
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Firemancer
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
 f30ed217694c716cc94a484ef7d66ded Assembly-CSharp.dll:.BallShadow
 d2a3fcd7f1c482a3a91f8f33996d4c84 Assembly-CSharp.dll:.InputSpectator
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Warlock
-3651abe4fbfb5b8a0c076bb1499c6aae Assembly-CSharp.dll:.warlock_tentacle
-391760d0046a2670e78075978a043d71 Assembly-CSharp.dll:.tentacle_push
 a48e692ecf8b94257ab68a315748dc94 Assembly-CSharp.dll:.rotator
-70a7ddc4c8f8069737dbcea5c662e026 Assembly-CSharp.dll:.dark_trail
+aa6dabeda195d655582c8ae5607bec1e Assembly-CSharp.dll:.AIStrategyController
