@@ -1,19 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\controll\ai\abilitystrat\ASRandom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\death_return.cs">
     <Files>
       <File FileName="Assets\temporary_ui\TUIGame.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Arrow.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\controll\ai\AIStrategyController.cs" Line="27" Column="18" />
-      <File FileName="Assets\scripts\controll\ai\AIStrat.cs" Line="12" Column="33" />
-      <File FileName="Assets\scripts\controll\GameController.cs" Line="75" Column="2" />
-      <File FileName="Assets\scripts\controll\ai\AIStratDefend.cs" Line="61" Column="53" />
-      <File FileName="Assets\scripts\controll\ai\AIStratAttack.cs" Line="38" Column="1" />
-      <File FileName="Assets\scripts\controll\ai\abilitystrat\AbilityStrategy.cs" Line="10" Column="56" />
-      <File FileName="Assets\scripts\controll\ai\abilitystrat\ASBasicKick.cs" Line="25" Column="90" />
-      <File FileName="Assets\scripts\abilities\Ability.cs" Line="39" Column="13" />
-      <File FileName="Assets\temporary_ui\TUINormalGameMan.cs" Line="9" Column="1" />
-      <File FileName="Assets\scripts\controll\ai\abilitystrat\ASRandom.cs" Line="7" Column="34" />
+      <File FileName="Assets\scripts\controll\ai\abilitystrat\ASBasicKick.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\Ability.cs" Line="1" Column="1" />
+      <File FileName="Assets\temporary_ui\TUINormalGameMan.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\controll\ai\abilitystrat\ASRandom.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\wizards\Warlock.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\DeathBasic.cs" Line="18" Column="1" />
+      <File FileName="Assets\scripts\wizards\Necromancer.cs" Line="14" Column="43" />
+      <File FileName="Assets\scripts\abilities\DeathJump.cs" Line="30" Column="62" />
+      <File FileName="Assets\scripts\death_courier.cs" Line="35" Column="15" />
+      <File FileName="Assets\scripts\death_jump.cs" Line="26" Column="33" />
+      <File FileName="Assets\scripts\death_return.cs" Line="26" Column="78" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

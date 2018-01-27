@@ -51,13 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\dark_trail.cs" />
      <Compile Include="Assets\GamePadInput\Demo\DemoScript.cs" />
      <Compile Include="Assets\GamePadInput\GamePad.cs" />
-     <Compile Include="Assets\rotator.cs" />
      <Compile Include="Assets\scripts\abilities\Ability.cs" />
      <Compile Include="Assets\scripts\abilities\BasicAbility.cs" />
      <Compile Include="Assets\scripts\abilities\BigFireBall.cs" />
+     <Compile Include="Assets\scripts\abilities\DeathBasic.cs" />
+     <Compile Include="Assets\scripts\abilities\DeathJump.cs" />
      <Compile Include="Assets\scripts\abilities\FireSpeed.cs" />
      <Compile Include="Assets\scripts\abilities\ForceBall.cs" />
      <Compile Include="Assets\scripts\abilities\ForceBasic.cs" />
@@ -99,6 +99,10 @@
      <Compile Include="Assets\scripts\controll\MiddleKeyboardController.cs" />
      <Compile Include="Assets\scripts\controll\NumPadController.cs" />
      <Compile Include="Assets\scripts\controll\RightKeyboardController.cs" />
+     <Compile Include="Assets\scripts\dark_trail.cs" />
+     <Compile Include="Assets\scripts\death_courier.cs" />
+     <Compile Include="Assets\scripts\death_jump.cs" />
+     <Compile Include="Assets\scripts\death_return.cs" />
      <Compile Include="Assets\scripts\direct_fireball.cs" />
      <Compile Include="Assets\scripts\effects\FPSpeedEffect.cs" />
      <Compile Include="Assets\scripts\effects\LeaveTrailEffect.cs" />
@@ -118,12 +122,15 @@
      <Compile Include="Assets\scripts\NormalBallState.cs" />
      <Compile Include="Assets\scripts\possession_courier.cs" />
      <Compile Include="Assets\scripts\possession_entity.cs" />
+     <Compile Include="Assets\scripts\rotator.cs" />
      <Compile Include="Assets\scripts\RuneTeleportState.cs" />
      <Compile Include="Assets\scripts\SelfDestruct.cs" />
      <Compile Include="Assets\scripts\smoke_courier.cs" />
      <Compile Include="Assets\scripts\teleport_rune.cs" />
+     <Compile Include="Assets\scripts\tentacle_push.cs" />
      <Compile Include="Assets\scripts\warlock_tentacle.cs" />
      <Compile Include="Assets\scripts\wizards\Firemancer.cs" />
+     <Compile Include="Assets\scripts\wizards\Necromancer.cs" />
      <Compile Include="Assets\scripts\wizards\Occultist.cs" />
      <Compile Include="Assets\scripts\wizards\RandomWiz.cs" />
      <Compile Include="Assets\scripts\wizards\RuneScribe.cs" />
@@ -147,7 +154,6 @@
      <Compile Include="Assets\temporary_ui\TUIRandAll.cs" />
      <Compile Include="Assets\temporary_ui\TUIRandWiz.cs" />
      <Compile Include="Assets\temporary_ui\TUISelector.cs" />
-     <Compile Include="Assets\tentacle_push.cs" />
      <None Include="Assets\materials\normalmap.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

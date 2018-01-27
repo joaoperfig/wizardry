@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   teamtag: 0
-  speedCompensation: 0
+  speedCompensation: 70
   basespeed: 3
   brakes: 0.1
   pressedup: 0
@@ -338,7 +338,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 167429551
-  m_SortingLayer: -2
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 552212db1909e1242b38367bcdc0fdfd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.15686275}

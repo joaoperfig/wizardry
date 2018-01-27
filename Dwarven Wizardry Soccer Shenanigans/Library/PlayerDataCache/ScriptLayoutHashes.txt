@@ -137,6 +137,7 @@ af510cf03dcd46055d482432073ad0fe Assembly-CSharp.dll:.AbilityWindow
 391760d0046a2670e78075978a043d71 Assembly-CSharp.dll:.tentacle_push
 14287226e1be2109021ff64a763ec489 Assembly-CSharp.dll:.Ball
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Occultist
+aa6dabeda195d655582c8ae5607bec1e Assembly-CSharp.dll:.AIStrategyController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DemoScript
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
@@ -189,4 +190,7 @@ fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
 f30ed217694c716cc94a484ef7d66ded Assembly-CSharp.dll:.BallShadow
 d2a3fcd7f1c482a3a91f8f33996d4c84 Assembly-CSharp.dll:.InputSpectator
 a48e692ecf8b94257ab68a315748dc94 Assembly-CSharp.dll:.rotator
-aa6dabeda195d655582c8ae5607bec1e Assembly-CSharp.dll:.AIStrategyController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Necromancer
+0e886c1ceef3de5f3db63476ca950eaf Assembly-CSharp.dll:.death_courier
+e2bf7769ec0a038546cd2a209943521f Assembly-CSharp.dll:.death_jump
+575e4be3be14b47a7b341c3a460e83bb Assembly-CSharp.dll:.death_return
