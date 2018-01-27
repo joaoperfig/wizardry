@@ -204,8 +204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   teamtag: 0
-  speedCompensation: 70
-  basespeed: 3
+  speedCompensation: 1
+  basespeed: 4
   brakes: 0.1
   pressedup: 0
   presseddown: 0

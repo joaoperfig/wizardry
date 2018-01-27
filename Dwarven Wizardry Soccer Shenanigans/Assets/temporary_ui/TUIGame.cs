@@ -17,7 +17,7 @@ public class TUIGame : MonoBehaviour {
 	public AbilityWindow lefta;
 	public AbilityWindow righta;
 
-	public int wizardSpeed;
+	public float wizardSpeed;
 
 	private float start;
 	public float waitime;

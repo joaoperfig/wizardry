@@ -58,6 +58,8 @@
      <Compile Include="Assets\scripts\abilities\BigFireBall.cs" />
      <Compile Include="Assets\scripts\abilities\DeathBasic.cs" />
      <Compile Include="Assets\scripts\abilities\DeathJump.cs" />
+     <Compile Include="Assets\scripts\abilities\DeathSkeleton.cs" />
+     <Compile Include="Assets\scripts\abilities\DeathZombie.cs" />
      <Compile Include="Assets\scripts\abilities\FireSpeed.cs" />
      <Compile Include="Assets\scripts\abilities\ForceBall.cs" />
      <Compile Include="Assets\scripts\abilities\ForceBasic.cs" />
@@ -125,6 +127,7 @@
      <Compile Include="Assets\scripts\rotator.cs" />
      <Compile Include="Assets\scripts\RuneTeleportState.cs" />
      <Compile Include="Assets\scripts\SelfDestruct.cs" />
+     <Compile Include="Assets\scripts\skeleton.cs" />
      <Compile Include="Assets\scripts\smoke_courier.cs" />
      <Compile Include="Assets\scripts\teleport_rune.cs" />
      <Compile Include="Assets\scripts\tentacle_push.cs" />
@@ -145,6 +148,7 @@
      <Compile Include="Assets\scripts\wizardstate\FSpeedState.cs" />
      <Compile Include="Assets\scripts\wizardstate\NormalWizardState.cs" />
      <Compile Include="Assets\scripts\wizardstate\WizardState.cs" />
+     <Compile Include="Assets\scripts\zombie.cs" />
      <Compile Include="Assets\temporary_ui\CursorSet.cs" />
      <Compile Include="Assets\temporary_ui\NumberWindow.cs" />
      <Compile Include="Assets\temporary_ui\showaistatus.cs" />

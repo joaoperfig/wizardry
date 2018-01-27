@@ -12,7 +12,7 @@ public class Wizard : MonoBehaviour {
 	public GameController controller;
 
 	public int teamtag;
-	public int speedCompensation;
+	public float speedCompensation;
 
 	public float basespeed;
 	public float brakes;
@@ -111,7 +111,7 @@ public class Wizard : MonoBehaviour {
 			else{
 				dir.Normalize ();
 				walkAnimation ();
-				Vector2 delta2 = (dir * (basespeed * Time.deltaTime * state.speedmodifier * effectspeedmodifiers()));
+				Vector2 delta2 = (dir * (basespeed * state.speedmodifier * effectspeedmodifiers()));
 				Vector3 delta3 = new Vector3 (delta2.x, delta2.y, 0f);
 				//this.gameObject.transform.position = this.gameObject.transform.position + delta3;
 

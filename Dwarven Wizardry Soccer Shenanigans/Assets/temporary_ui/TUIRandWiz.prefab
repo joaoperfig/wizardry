@@ -63,4 +63,5 @@ MonoBehaviour:
   wiz3: {fileID: 1251293980433940, guid: 51fccbe54046db048a3ceafcd51970f3, type: 2}
   wiz4: {fileID: 1522190315846846, guid: 1bc9b94fe534e3f4c986b09ea324ec9b, type: 2}
   wiz5: {fileID: 1777303868945740, guid: c43e8f2f1754c0f4b891e615e8075a61, type: 2}
+  wiz6: {fileID: 1576654453709160, guid: 934d904877f588d48ba5e88f62ed6a1f, type: 2}
   wizards: []

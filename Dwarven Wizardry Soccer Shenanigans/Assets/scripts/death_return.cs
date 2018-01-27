@@ -36,6 +36,7 @@ public class death_return : MonoBehaviour {
 
 	void Drop() {
 		carrying.state = new NormalWizardState (carrying);
+		carrying.gameObject.GetComponent<Animator> ().SetTrigger ("uncast"); //prevents dude getting stuck on cast animation if he was casting when ge got carried back
 		carrying.gameObject.transform.position = skeleton.gameObject.transform.position;
 		skeleton.arrived ();
 		GameObject.Instantiate (smoke, skeleton.gameObject.transform.position , Quaternion.identity);

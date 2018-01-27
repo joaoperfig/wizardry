@@ -30,7 +30,6 @@ public class death_jump : MonoBehaviour {
 			death_return dr = cou.GetComponent<death_return> ();
 			dr.carrying = died;
 			dr.skeleton = this;
-			died.GetComponent<Animator> ().SetTrigger ("uncast"); //prevents dude getting stuck on cast animation if he was casting when ge got carried back
 			died.state = new CourriedWizardState (died);
 
 			gameObject.GetComponent<Animator> ().SetTrigger ("return");

@@ -15,7 +15,7 @@ public class DeathJump : Ability {
 		castduration = 0f;
 		courier = (GameObject)Resources.Load ("death_courier");
 		skeleton = (GameObject)Resources.Load ("death_jump");
-		logo = findlogo("abilty_icons_shadow_3");
+		logo = findlogo("abilty_icons_death_3");
 	}
 
 	public override void magic() {

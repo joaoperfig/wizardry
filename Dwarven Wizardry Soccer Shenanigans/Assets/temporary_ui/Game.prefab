@@ -60,7 +60,7 @@ MonoBehaviour:
   rightc: {fileID: 0}
   lefta: {fileID: 0}
   righta: {fileID: 0}
-  wizardSpeed: 70
+  wizardSpeed: 1
   waitime: 2
   finished: 0
   winner: 1

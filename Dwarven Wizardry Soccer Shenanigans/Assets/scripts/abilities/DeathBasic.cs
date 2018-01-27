@@ -12,6 +12,6 @@ public class DeathBasic : BasicAbility {
 		intensity = 4;
 		amortice = 0.5f;
 		distance_modifier = 1f;
-		logo = findlogo("abilty_icons_tentacle_2");
+		logo = findlogo("abilty_icons_death_2");
 	}
 }

@@ -29,6 +29,9 @@ public class TUISelector : MonoBehaviour {
 	public Sprite sw5;
 	public GameObject wz5;
 
+	public Sprite sw6;
+	public GameObject wz6;
+
 	private int index = 0;
 
 	private Sprite[] images;
@@ -38,8 +41,8 @@ public class TUISelector : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		images = new Sprite[5] {sw1, sw2, sw3, sw4, sw5};
-		wizards = new GameObject[5] {wz1, wz2, wz3, wz4, wz5};
+		images = new Sprite[6] {sw1, sw2, sw3, sw4, sw5, sw6};
+		wizards = new GameObject[6] {wz1, wz2, wz3, wz4, wz5, wz6};
 
 		
 	}
@@ -54,8 +57,8 @@ public class TUISelector : MonoBehaviour {
 				index = index - 1;
 			}
 			if (index == -1)
-				index = 4;
-			if (index == 5)
+				index = 5;
+			if (index == 6)
 				index = 0;
 
 			gameObject.GetComponent<SpriteRenderer> ().sprite = images [index];
