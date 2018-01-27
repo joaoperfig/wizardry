@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ASRandom : AbilityStrategy {
 
-	public float usespersecond = 0.1f; 
+	public float usespersecond = 0.18f; 
 
 	public ASRandom (Wizard w, AIStrategyController c, Ability a, int buttonid) : base(w, c, a, buttonid){
 

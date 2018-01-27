@@ -1,4 +1,6 @@
-None rn
+pyromancer big fireball instantly explodes if pyro is next to bottom wall
+zombie/skeleton go to corner on couried ball
+occultist can be on ball that is couried
 
 fixed: occultist disappears if he swaps with shadowstepping occultist
 fixed: occultist disappears if he swaps with ball possessing occultist (make him swap with ball?)

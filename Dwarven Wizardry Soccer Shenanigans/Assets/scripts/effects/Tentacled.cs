@@ -9,7 +9,7 @@ public class Tentacled : WizardEffect {
 	public float starttime;
 
 	public Tentacled(Wizard w) : base(w) {
-		allowsmovement = true;
+		allowsmovement = false;
 
 		allowsabilities = true;
 

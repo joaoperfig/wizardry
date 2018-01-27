@@ -106,6 +106,7 @@
      <Compile Include="Assets\scripts\death_jump.cs" />
      <Compile Include="Assets\scripts\death_return.cs" />
      <Compile Include="Assets\scripts\direct_fireball.cs" />
+     <Compile Include="Assets\scripts\effects\BasicStun.cs" />
      <Compile Include="Assets\scripts\effects\FPSpeedEffect.cs" />
      <Compile Include="Assets\scripts\effects\LeaveTrailEffect.cs" />
      <Compile Include="Assets\scripts\effects\RuneSpeedEffect.cs" />
