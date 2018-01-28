@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 120
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 89
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 101
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,6 +295,8 @@ MonoBehaviour:
     - {fileID: 1107278860101924744, guid: 2e22e83471a68e24f99246def2cadaf9, type: 2}
     - {fileID: 1107761174324898792, guid: 69347e92fb013104b8c55ca4d2847c55, type: 2}
     - {fileID: 1107098012703484342, guid: 4ff041f0f9b68cf4a9ddd79de90d60f2, type: 2}
+    - {fileID: 1107590006122042252, guid: 19587811b6f2ca143b8e7ee14340dc18, type: 2}
+    - {fileID: 1107828459094821012, guid: 4cf5177212dfb8044a71ac7ed3149e77, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5624668
       e01: 0
@@ -336,6 +338,38 @@ MonoBehaviour:
       e11: 0.51473683
       e12: 0
       e13: 142.89368
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -465,7 +499,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a6f0ffff80f1fffffef2ffff9efbffff00000000
+    m_ExpandedIDs: c058ffffa459ffff225bffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,9 +555,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4350386, y: -0.3480749, z: 0.5544839}
+    m_Target: {x: -1.084054, y: 0.23727764, z: 0.5562143}
     speed: 2
-    m_Value: {x: -1.4350386, y: -0.3480749, z: 0.5544839}
+    m_Value: {x: -1.084054, y: 0.23727764, z: 0.5562143}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -551,9 +585,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.673363
+    m_Target: 12.494806
     speed: 2
-    m_Value: 12.673363
+    m_Value: 12.494806
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -631,19 +665,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/scripts/effects
+    - Assets/scripts/abilities
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts/effects
+  - Assets/scripts/abilities
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\joaop\gits\wizardry\Dwarven Wizardry Soccer Shenanigans
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 165}
-    m_SelectedIDs: 02290000
-    m_LastClickedID: 10498
-    m_ExpandedIDs: 0000000038280000402a00004a2a0000e82a00000c2f0000d430000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: 0c2c0000
+    m_LastClickedID: 11276
+    m_ExpandedIDs: 000000003a280000422a00004c2a0000ea2a00000e2f0000d630000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +705,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000038280000402a00004a2a0000e82a00000c2f0000d4300000
+    m_ExpandedIDs: 000000003a280000422a00004c2a0000ea2a00000e2f0000d6300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -699,7 +733,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000e63f0000c202e8ff34280000487900008e490000ca4900002c32000000000000042b0000866b0000c0a20000c4b80000462a0000d6c2000060450000562b0000
+    m_ExpandedInstanceIDs: c6230000e63f0000c202e8ff34280000487900008e490000ca4900002c32000000000000042b0000866b0000c0a20000c4b80000462a0000d6c2000060450000562b0000d4280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,7 +757,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 81}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 308
 --- !u!114 &18

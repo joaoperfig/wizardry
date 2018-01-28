@@ -44,6 +44,9 @@ public class zombie : MonoBehaviour {
 
 		Vector3 delta3 = (otherw.transform.position - gameObject.transform.position).normalized;
 		Vector2 delta2 = new Vector2 (delta3.x, delta3.y).normalized;
-		gameObject.GetComponent<Rigidbody2D> ().velocity = delta2 * speed;
+
+		if (otherw.GetComponent<Wizard> ().state.allowswap) {
+			gameObject.GetComponent<Rigidbody2D> ().velocity = delta2 * speed;
+		}
 	}
 }

@@ -25,6 +25,10 @@ public class Ability {
 		}
 	}
 
+	public void ResetWait(){
+		last_cast = Time.time-100;
+	}
+
 	public bool canUncast() {
 		float canuncast = last_cast + castduration;
 		if (Time.time >= canuncast) {

@@ -37,6 +37,8 @@ public class skeleton : MonoBehaviour {
 		rbd = gameObject.GetComponent<Rigidbody2D> ();
 		Vector2 diff = ball.transform.position - gameObject.transform.position;
 		diff.Normalize ();
-		rbd.velocity = (diff * speed);
+		if (ball.GetComponent<Ball> ().state.canreach) {
+			rbd.velocity = (diff * speed);
+		}
 	}
 }
