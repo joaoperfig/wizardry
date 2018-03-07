@@ -159,6 +159,7 @@
      <Compile Include="Assets\temporary_ui\TUIRandAll.cs" />
      <Compile Include="Assets\temporary_ui\TUIRandWiz.cs" />
      <Compile Include="Assets\temporary_ui\TUISelector.cs" />
+     <Compile Include="Assets\ui\CloudScrolling.cs" />
      <None Include="Assets\materials\normalmap.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

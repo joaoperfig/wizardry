@@ -1,21 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\possession_entity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\wizards\RandomWiz.cs">
     <Files>
       <File FileName="Assets\scripts\controll\ai\abilitystrat\ASBasicKick.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\wizards\Warlock.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\wizards\Necromancer.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\abilities\ShadowSwap.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\wizards\Wizard.cs" Line="19" Column="2" />
-      <File FileName="Assets\scripts\abilities\BasicAbility.cs" Line="9" Column="31" />
-      <File FileName="Assets\scripts\effects\Tentacled.cs" Line="11" Column="26" />
-      <File FileName="Assets\scripts\effects\BasicStun.cs" Line="27" Column="2" />
-      <File FileName="Assets\scripts\abilities\BigFireBall.cs" Line="21" Column="27" />
-      <File FileName="Assets\scripts\controll\ai\AIStrat.cs" Line="15" Column="53" />
-      <File FileName="Assets\scripts\abilities\ShadowPossession.cs" Line="26" Column="14" />
-      <File FileName="Assets\scripts\skeleton.cs" Line="42" Column="4" />
-      <File FileName="Assets\scripts\zombie.cs" Line="34" Column="20" />
-      <File FileName="Assets\scripts\possession_entity.cs" Line="50" Column="35" />
+      <File FileName="Assets\scripts\wizards\Wizard.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\BasicAbility.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\effects\Tentacled.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\effects\BasicStun.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\BigFireBall.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\controll\ai\AIStrat.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\abilities\ShadowPossession.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\skeleton.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\zombie.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\possession_entity.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\wizards\RandomWiz.cs" Line="21" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
