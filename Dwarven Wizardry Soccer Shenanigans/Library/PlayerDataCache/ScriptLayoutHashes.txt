@@ -1,6 +1,9 @@
 WindowsStandalone
 SceneListBegin?
+Assets/scenes/mainmenu.unity
 Assets/scenes/field1.unity
+Assets/scenes/options.unity
+Assets/scenes/playoptions.unity
 SceneListEnd?
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.RightKeyboardController
 85f319047051f09f881a78ecb1f1648c Assembly-CSharp.dll:.TUIGame
@@ -146,6 +149,7 @@ aa6dabeda195d655582c8ae5607bec1e Assembly-CSharp.dll:.AIStrategyController
 e2bf7769ec0a038546cd2a209943521f Assembly-CSharp.dll:.death_jump
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+2cb2786b9efb0d39e2b5829b412f70da Assembly-CSharp.dll:.MenuPanel
 1c7979acbcd8cf898c9f7b78ddd695fa Assembly-CSharp.dll:.direct_fireball
 3651abe4fbfb5b8a0c076bb1499c6aae Assembly-CSharp.dll:.warlock_tentacle
 9176f11ac7f59adf8f45867485496768 Assembly-CSharp.dll:.AIController
@@ -183,11 +187,13 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+2109df5d49fcd86c5edd8f2fce2fceeb Assembly-CSharp.dll:.CloudScrolling
 0e886c1ceef3de5f3db63476ca950eaf Assembly-CSharp.dll:.smoke_courier
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RandomWiz
 0fd2604a80ab88b1fcb1b2b9d215055a Assembly-CSharp.dll:.skeleton
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Thaumaturge
+a1c46079e41c51ac86f0edbc2117ff28 Assembly-CSharp.dll:.MenuButton
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.AnyGPController
 fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.MiddleKeyboardController
 70a7ddc4c8f8069737dbcea5c662e026 Assembly-CSharp.dll:.dark_trail
@@ -196,3 +202,9 @@ fa5813178b9d8b46bb26af6a706b46b1 Assembly-CSharp.dll:.NumPadController
 f30ed217694c716cc94a484ef7d66ded Assembly-CSharp.dll:.BallShadow
 d2a3fcd7f1c482a3a91f8f33996d4c84 Assembly-CSharp.dll:.InputSpectator
 a48e692ecf8b94257ab68a315748dc94 Assembly-CSharp.dll:.rotator
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonAction
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BAExit
+483f492c3099122a045a5ca9e5f7318a Assembly-CSharp.dll:.Courtain
+1174ed051ec50f0faf37b68ac4483dab Assembly-CSharp.dll:.BACourtain
+99128ac0133c5bcb4619ea3844c7fd0c Assembly-CSharp.dll:.BAScene
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UIFadein

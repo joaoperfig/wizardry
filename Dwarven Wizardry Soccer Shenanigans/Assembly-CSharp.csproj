@@ -159,7 +159,15 @@
      <Compile Include="Assets\temporary_ui\TUIRandAll.cs" />
      <Compile Include="Assets\temporary_ui\TUIRandWiz.cs" />
      <Compile Include="Assets\temporary_ui\TUISelector.cs" />
+     <Compile Include="Assets\ui\BACourtain.cs" />
+     <Compile Include="Assets\ui\BAExit.cs" />
+     <Compile Include="Assets\ui\BAScene.cs" />
+     <Compile Include="Assets\ui\ButtonAction.cs" />
      <Compile Include="Assets\ui\CloudScrolling.cs" />
+     <Compile Include="Assets\ui\Courtain.cs" />
+     <Compile Include="Assets\ui\MenuButton.cs" />
+     <Compile Include="Assets\ui\MenuPanel.cs" />
+     <Compile Include="Assets\ui\UIFadein.cs" />
      <None Include="Assets\materials\normalmap.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
